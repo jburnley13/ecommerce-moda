@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Nunito&family=Yellowtail&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Nunito, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#container {
+    width: 100%;
+    /*Usar 940px para telas maiores, essa medida é para mobile-first*/
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+
+}
+
+.slide {
+    width: 100%;
+    height: 550px;
+    margin-top: 30px;
+    padding-left: 30px;
+    background-color: rgb(156, 156, 156);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.slide h1 {
+    font-size: 32px;
+}
+
+.slide p {
+    font-size: 14px;
+}
+
+#shop-now {
+    width: 140px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgb(156, 156, 156);
+    border: 3px solid rgb(26, 25, 25);
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#shop-now:hover {
+    background-color: black;
+    color: white;
+}
+
+#items {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.discount {
+    color: red;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+}
+
+.price-through {
+    text-decoration: line-through;
+}
+
+.item {
+    width: 400px;
+    height: 500px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+} 
+
+
+
+.item-img {
+    background-color: rgb(190, 142, 51);
+    height: 400px;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-image: url(../images/modelo-roupa1.jpg);
+    display: flex;
+    justify-content: flex-end;
+
+} 
+
+.sale {
+    width: 80px;
+    margin-right: 10px;
+    margin-top: 10px;
+    height: 30px;
+    background-color: rgb(245, 154, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sale p {
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.collections {
+    width: 400px;
+    height: 400px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(216, 220, 224);
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    padding-left: 12px;
+}
+
+.collections h2 {
+    font-size: 56px;
+    font-weight: bolder;
+}
+
+.collections h3 {
+    font-size: 24px;
+    color: rgb(34, 33, 33);
+}
+
+.collections p {
+    font-size: 16px;
+    color: rgb(139, 134, 134);
+    font-weight: bold;
+}
+
+.summer-sale {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(216, 220, 224);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.summer-sale h2 {
+    font-size: 48px;
+}
+
+.summer-sale h3 {
+    font-size: 18px;
+}
+
+.collections-button {
+    width: 140px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(26, 25, 25);
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collections-button:hover {
+    background-color: black;
+    color: white;
+}
