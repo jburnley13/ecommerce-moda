@@ -266,7 +266,6 @@ hr {
     nav {
         display: flex;
         flex-direction: row-reverse;
-        align-items: center;
         justify-content: space-between;
         margin-bottom: -12px;
     }
@@ -314,17 +313,19 @@ hr {
         flex-direction: row;
         flex-wrap: wrap;
         margin-top: -10px;
+        align-items: flex-start;
+        align-content: flex-start;
     }
 
     .item {
         width: 175px;
-        height: 350px;
+        height: 250px;
         margin-left: 15px;
     }
 
     .item-img img {
         width: 175px;
-        height: 310px;
+        height: 280px;
     }
 
     .collections {
