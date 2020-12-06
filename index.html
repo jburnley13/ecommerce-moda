@@ -4,21 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Moda Viva</title>
+    <title>Promoções</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 <body>
     <div id="container">
 
         <header>
             <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>Feminino</li>
-                    <li>Masculino</li>
-                    <li>Destaque</li>
-                    <li>Promoções</li>
-                </ul>
+                <div class="icons">
+                    <i class="fas fa-search fa-1.5x"></i>
+                    <i class="far fa-user-circle fa-1.5x"></i>
+                    <i class="far fa-heart fa-1.5x"></i>
+                    <i class="fas fa-shopping-bag fa-1.5x"></i>
+                    <i id="bar" class="fas fa-bars fa-1.5x"></i>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Feminino</a></li>
+                        <li><a href="">Masculino</a></li>
+                        <li><a href="">Destaque</a></li>
+                        <li><a class="selected" href="">Promoções</a></li>
+                    </ul>
+                </div>
             </nav>
+
+            <hr>
         </header>
 
         <div class="slide">
@@ -37,6 +49,52 @@
                 </div>
             </a>
 
+            <div class="item">
+                <div class="item-img">
+                    <img src="assets/images/modelo-roupa1.jpg" alt="">
+                    <div class="sale">Sale</div>
+                </div>
+                <p>Tatical Rush Moab</p>
+                <div class="price">
+                    <p class="price-through">$148.00</p> <span class="discount">$120.00</span>
+                </div>            
+            </div>
+
+
+            <div class="item">
+                <div class="item-img">
+                    <img src="assets/images/modelo-roupa2.jpg" alt="">
+                    <div class="sale">Sale</div>
+                </div>
+                <p>Vector Shoes</p>
+                <div class="price">
+                    <p class="price-through">$199.00</p> <span class="discount">$99.00</span>
+                </div>
+            </div>
+
+
+            <div class="item">
+                <div class="item-img">
+                    <img src="assets/images/modelo-roupa3.jpg" alt="">
+                    <div class="sale">Sale</div>
+                </div>
+                <p>Beebay Full Lenght Denim</p>
+                <div class="price">
+                    <p class="price-through">$76.00</p> <span class="discount">$49.00</span>
+                </div>            
+            </div>
+
+            <div class="item">
+                <div class="item-img">
+                    <img src="assets/images/modelo-roupa4.jpg" alt="">
+                    <div class="sale">Sale</div>
+                </div>
+                <p>Tess cropped strtech-cloque top</p>
+                <div class="price">
+                    <p class="price-through">$96.00</p> <span class="discount">$65.00</span>
+                </div>            
+            </div>
+
             <a href="">
                 <div class="summer-sale">
                     <h3>SUMMER SALE</h3>
@@ -45,36 +103,45 @@
                 </div>
             </a>
 
-
             <div class="item">
                 <div class="item-img">
-                    <div class="sale"><p>Sale</p></div>
+                    <img src="assets/images/modelo-roupa5.jpg" alt="">
                 </div>
-                <p>Tatical Rush Moab</p>
+                <p>Vector Shoes</p>
                 <div class="price">
-                    <p class="price-through">$148.00</p> <span class="discount">$120.00</span> <!--Esse span deve ser escondido quando não houver desconto-->    
+                    <p>$199.00</p>    
                 </div>            
             </div>
 
-
             <div class="item">
                 <div class="item-img">
-                    <div class="sale"><p>Sale</p></div>
+                    <img src="assets/images/modelo-roupa6.jpg" alt="">
                 </div>
-                <p>Tatical Rush Moab</p>
+                <p>Silver High Heel Shoes</p>
                 <div class="price">
-                    <p class="price-through">$148.00</p> <span class="discount">$120.00</span> <!--Esse span deve ser escondido quando não houver desconto-->    
-                </div>
+                    <p>$76.00</p>
+                </div>            
             </div>
 
+            <div class="item">
+                <div class="item-img">
+                    <img src="assets/images/modelo-roupa7.jpg" alt="">
+                    <div class="sale">Sale</div>
+                </div>
+                <p>Suitcase Clipart</p>
+                <div class="price">
+                    <p class="price-through">$19.00</p> <span class="discount">$10.00</span>
+                </div>            
+            </div>
 
             <div class="item">
                 <div class="item-img">
-                    <div class="sale"><p>Sale</p></div>
+                    <img src="assets/images/modelo-roupa8.jpg" alt="">
+                    <div class="sale">Sale</div>
                 </div>
-                <p>Tatical Rush Moab</p>
+                <p>Tuk Peacock Shoes</p>
                 <div class="price">
-                    <p class="price-through">$148.00</p> <span class="discount">$120.00</span> <!--Esse span deve ser escondido quando não houver desconto-->    
+                    <p class="price-through">$135.00</p> <span class="discount">$115.00</span>
                 </div>            
             </div>
 
@@ -82,5 +149,8 @@
 
     </div>
 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/brands.min.js"></script>
+    <script src="assets/scripts/script.js"></script>
 </body>
 </html>
